@@ -8,9 +8,9 @@ In this project, we create multiple webpages using HTML, each following the same
 
 ## Webpages
 
-1. **base_index.html**: The base webpage with the common HTML structure.
-2. **index.html**: Webpage with paragraphs, headlines, images, and a table.
-3. **tweets.html**: Webpage with an embedded tweet from Twitter.
+1. base_index.html : The base webpage with the common HTML structure.
+2. index.html : Webpage with paragraphs, headlines, images, and a table.
+3. tweets.html : Webpage with an embedded tweet from Twitter.
 
 ## Linking Webpages
 
@@ -22,15 +22,18 @@ All webpages include a footer with the sign of the creator/learner.
 
 ## File Structure
 
-- html_basic:
-        - base_index.html
-        - index.html
-        - tweets.html
-- README.md
+- `html_basic`:
+    - `base_index.html`
+    - `index.html`
+    - `tweets.html`
+- `README.md`
 
 ## Instructions
 
 1. Clone the repository.
+
+```git clone https://github.com/your-username/alx_html_css.git```
+
 2. Open each HTML file in a web browser to view the webpages.
 
 Feel free to modify and enhance the content as you see fit.
