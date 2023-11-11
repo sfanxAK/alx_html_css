@@ -36,7 +36,7 @@ All webpages include a footer with the sign of the creator/learner.
 Replace `your-username` with your GitHub username.
 
 ```bash
-    cd alx_html_
+    cd alx_html_css
 ```
 
 2. Open each HTML file in a web browser to view the webpages.
