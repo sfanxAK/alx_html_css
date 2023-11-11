@@ -6,15 +6,12 @@ This project is part of the ALX Introduction to Software Engineering program and
 
 In this project, we create multiple webpages using HTML, each following the same HTML structure. The webpages include content such as paragraphs, different headlines, images, links, tables, and an embedded tweet from Twitter.
 
-## Webpages
+The project is organized as follows:
 
-1. base_index.html : The base webpage with the common HTML structure.
-2. index.html : Webpage with paragraphs, headlines, images, and a table.
-3. tweets.html : Webpage with an embedded tweet from Twitter.
-
-## Linking Webpages
-
-The `index.html`,`tweets.html` pages contains a link. Users can navigate between these pages.
+- **html_basic/**
+  - `base_index.html`: The base webpage with the common HTML structure.
+  - `index.html`: Webpage with paragraphs, headlines, images, and a table.
+  - `tweets.html`: Webpage with an embedded tweet from Twitter.
 
 ## Footer
 
@@ -32,7 +29,11 @@ All webpages include a footer with the sign of the creator/learner.
 
 1. Clone the repository.
 
-```git clone https://github.com/your-username/alx_html_css.git```
+```bash
+    git clone https://github.com/your-username/alx_html_css.git
+```
+
+Replace `your-username` with your GitHub username.
 
 2. Open each HTML file in a web browser to view the webpages.
 
@@ -49,7 +50,7 @@ Soufiane Akhait
 
 ---
 
-**ALX Happy coding!**
+**Furaha coding!**
 
 
 
