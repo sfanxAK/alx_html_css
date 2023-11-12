@@ -88,8 +88,8 @@ Feel free to modify and enhance the content as you see fit.
 
 ## RESOURCES
 
-[Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-[Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
+- [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+- [Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
 
 
 ## Creator/ALX_Learner
