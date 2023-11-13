@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@1,600&family=Inconsolata:wght@300;400&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500&family=Rowdies&family=Titillium+Web:wght@400;900&display=swap');
+
 body {
+    margin: 0;
     display:flex;
     flex-direction:column;
 }
+header{
+    background-color: #170000;
+    margin: 0;
+    height: 30px;
+}
+header ul {
+    display: flex;
+    justify-content:center;
+}
+header ul li a {
+    padding: 5px;
+    color: white;
+    font-family: 'Poppins'
+}
+
 main {
     display:flex;
     flex-direction:row;
@@ -14,4 +32,32 @@ main article {
 main aside {
 	flex:1;
     overflow-y: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 4px;
+    text-align: left;
+}
+tr th {
+    font-size: larger;
+    color: white;
+    background-color: #303030;
+}
+footer {
+    margin: 0;
+    background-color: #170000;
+}
+footer p {
+    color: aliceblue;
+    padding: 15px;
+}
+footer a {
+    color: aliceblue;
 }
