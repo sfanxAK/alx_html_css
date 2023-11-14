@@ -39,6 +39,7 @@ The project structure is organized as follows:
 - `alx_html_css/`
   - `html_advanced/`
     - `index.html` (Main HTML file)
+    - `media` (Folder contain logo, images, icons...)
     - `README.md` (Project documentation)
 
 ## Tasks
