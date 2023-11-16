@@ -1,9 +1,5 @@
 # HTML, ADVANCED (WEEK 03 - PROJECT 9)
 
-This project is part of the ALX Intro to Software Engineering program. The goal is to implement a webpage from a designer file, focusing on the HTML structure.
-
-![Figma Page Design](media/Figma-page_school.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -17,7 +13,7 @@ This project is part of the ALX Intro to Software Engineering program. The goal 
 
 ## Introduction
 
-This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
+This project is part of the ALX Intro to Software Engineering program. on This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
 
 ## Learning Objectives
 
@@ -38,8 +34,8 @@ Before starting this project, it is recommended to have a basic understanding of
 
 The project structure is organized as follows:
 
-- `alx_html_css/`
-  - `html_advanced/`
+
+- `html_advanced/`
     - `index.html` (Main HTML file)
     - `media` (Folder contain logo, images, icons...)
     - `README.md` (Project documentation)
@@ -92,7 +88,10 @@ Feel free to modify and enhance the content as you see fit.
 ## RESOURCES
 
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-- [Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
+
+![Figma Page Design](media/Figma-page_school.png)
+
+- You can Get this file on figma [Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
 
 
 ## Creator/ALX_Learner

@@ -1,7 +1,5 @@
 # ALX PROJECTS
 
-Those projects is part of the ALX Intro to Software Engineering program. The goal is to implement a webpage from a designer file, focusing on the HTML structure and CSS stylesheets 
-
 # Table of Contents
 
 - [Introduction](#introduction)

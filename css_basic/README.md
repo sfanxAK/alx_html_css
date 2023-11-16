@@ -1,6 +1,4 @@
-# CSS, basic (WEEK 03 - PROJECT 10)
-
-This project is part of the ALX Intro to Software Engineering program. The goal is to implement a webpage from a designer file, focusing on the HTML structure.
+# CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)
 
 ## Table of Contents
 
@@ -12,7 +10,7 @@ This project is part of the ALX Intro to Software Engineering program. The goal 
 
 ## Introduction
 
-This project focuses on mastering the basics of Cascading Style Sheets (CSS) to enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of CSS fundamentals and how to apply them to create stylish and responsive web designs.
+This project is part of the ALX Intro to Software Engineering program.This project focuses on mastering the basics of Cascading Style Sheets (CSS) to enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of CSS fundamentals and how to apply them to create stylish and responsive web designs.
 
 ## Learning Objectives
 
@@ -34,8 +32,7 @@ Before starting this project, it is recommended to have a basic understanding of
 
 The project structure is organized as follows:
 
-- `alx_html_css/`
-  - `css_basic/`
+- `css_basic/`
     - `index.html` 
     - `tweets.html`
     - `base.css`

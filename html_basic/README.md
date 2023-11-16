@@ -1,10 +1,8 @@
-# HTML Basics Project
-
-This project is part of the ALX Introduction to Software Engineering program and focuses on learning the basics of HTML (HyperText Markup Language).
+# HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)
 
 ## Project Description
 
-In this project, we create multiple webpages using HTML, each following the same HTML structure. The webpages include content such as paragraphs, different headlines, images, links, tables, and an embedded tweet from Twitter.
+This project is part of the ALX Introduction to Software Engineering program and focuses on learning the basics of HTML (HyperText Markup Language). In this project, we create multiple webpages using HTML, each following the same HTML structure. The webpages include content such as paragraphs, different headlines, images, links, tables, and an embedded tweet from Twitter.
 
 The project is organized as follows:
 
