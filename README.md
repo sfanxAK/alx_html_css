@@ -2,16 +2,17 @@
   <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
   
-# ALX iSwE HTML & CSS PROJECTS 
-
-# Table of Contents
+<h1 align="center">ALX iSwE HTML & CSS PROJECTS</h1>
+<br>
+<br>
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Learning Objectives](#learning-objectives)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Instructions](#instructions)
-- [ALX_Learner](#ALX_Learner)
+- [ALX_Learner](#alx_Learner)
 
 
 ## Introduction
