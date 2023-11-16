@@ -19,7 +19,7 @@
 
 This project is part of the ALX Intro to Software Engineering program. on This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
 
-- Programing Language used in this Project :    
+- Programing Language used in this Project :    <br>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
 
 
@@ -97,23 +97,23 @@ Feel free to modify and enhance the content as you see fit.
 
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 
-<img src="media/Figma-page_school.png" Alt="Figma Page Design" style="width:200px;text-align:center"/>
+<img src="media/Figma-page_school.png" Alt="Figma Page Design" style="hieght:800px;text-align:center"/>
 
 - You can Get this file on figma [Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
 
 
-## Creator/ALX_Learner
+## ALX_Learner
 
-Soufiane Akhait
+<h5 align="center">Soufiane Akhait</h5>
 
-<i>You can find me here !</i><br>
+<center><i>You can find me here !</i><br>
 
-<a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
-<a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+<a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a><p>   |   </p>
+<a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a><p>   |   </p>>
 <a href="https://github.com/sfanxAK" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github"/></a>
 <br>
-<img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social">
-<img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" />
+<img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social"/><p>   |   </p>
+<img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" /></center>
 
 ---
 

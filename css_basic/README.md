@@ -2,7 +2,7 @@
   <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 
-#  CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)
+# CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)
 
 ## Table of Contents
 
@@ -16,8 +16,9 @@
 
 This project is part of the ALX Intro to Software Engineering program.This project focuses on mastering the basics of Cascading Style Sheets (CSS) to enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of CSS fundamentals and how to apply them to create stylish and responsive web designs.
 
-- Programing Language used in this Project :    
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/><div>  <div>
+- Programing Language used in this Project :
+<br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/><div>   <div>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
 
 ## Learning Objectives
@@ -73,18 +74,18 @@ Replace `your-username` with your GitHub username.
 Feel free to modify and enhance the content as you see fit.
 
 
-## Creator/ALX_Learner
+## ALX_Learner
 
-Soufiane Akhait
+<h5 align="center">Soufiane Akhait</h5>
 
-<i>You can find me here !</i><br>
+<center><i>You can find me here !</i><br>
 
-<a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
-<a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+<a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a><p>   |   </p>
+<a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a><p>   |   </p>>
 <a href="https://github.com/sfanxAK" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github"/></a>
 <br>
-<img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social">
-<img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" />
+<img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social"/><p>   |   </p>
+<img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" /></center>
 
 ---
 
