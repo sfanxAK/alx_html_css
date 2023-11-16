@@ -19,8 +19,8 @@
 
 This project is part of the ALX Intro to Software Engineering program. on This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
 
-- Programing Language used in this Project : 
-![HTML](https://img.shields.io/badge/HTML-5-orange)
+- Programing Language used in this Project :    
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
 
 
 ## Learning Objectives
@@ -106,9 +106,18 @@ Feel free to modify and enhance the content as you see fit.
 
 Soufiane Akhait
 
+<i>You can find me here !</i><br>
+
+<a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+<a href="https://github.com/sfanxAK" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github"/></a>
+<br>
+<img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social">
+<img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" />
+
 ---
 
-** Furaha coding!**
+**Happy Coding! 😊**
 
 
 
