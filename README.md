@@ -1,6 +1,4 @@
-<p align="right">
-  <img src="html_advanced/media/alx-logo.png" alt="ALX Logo" width="200"/>
-</p>
+<p align="left"><img src="html_advanced/media/Do-hard-things.png" alt="do hard things Logo" width="200"/></p><p align="right"><img src="html_advanced/media/alx-logo.png" alt="ALX Logo" width="200"/></p>
 
 #  ALX iSwE HTML & CSS PROJECTS 
 
