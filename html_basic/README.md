@@ -1,4 +1,4 @@
-# <span style="color: #F9F871;">HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)</span>
+# <span style="color: #B8E067;">HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)</span>
 
 ## Project Description
 

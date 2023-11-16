@@ -1,4 +1,4 @@
-# HTML, ADVANCED (WEEK 03 - PROJECT 9)
+#  <span style="color: #039590;">HTML, ADVANCED (WEEK 03 - PROJECT 9)</span>
 
 ## Table of Contents
 
@@ -93,7 +93,7 @@ Feel free to modify and enhance the content as you see fit.
 
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 
-![Figma Page Design](media/Figma-page_school.png)
+<img src="media/Figma-page_school.png" Alt="Figma Page Design" style="width:200px;text-align:center"/>
 
 - You can Get this file on figma [Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
 

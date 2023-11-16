@@ -1,4 +1,4 @@
-# CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)
+#  <span style="color: #FFC6A3;">CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)</span>
 
 ## Table of Contents
 
