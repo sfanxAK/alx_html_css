@@ -1,4 +1,4 @@
-![ALX](html_advanced/media/alx-logo.png | width=100)
+<img src="html_advanced/media/alx-logo.png" alt="ALX Logo" width="200"/>
 #  ALX HTML & CSS PROJECTS 
 
 
