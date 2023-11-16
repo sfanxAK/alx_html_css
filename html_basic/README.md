@@ -1,4 +1,8 @@
-# <span style="color: #B8E067;">HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)</span>
+<p align="center">
+  <img src="html_advanced/media/banner_readme.png" alt="ALX Logo" hieght="200"/>
+</p>
+
+# HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)
 
 ## Project Description
 

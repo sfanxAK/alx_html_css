@@ -1,4 +1,8 @@
-#  <span style="color: #039590;">HTML, ADVANCED (WEEK 03 - PROJECT 9)</span>
+<p align="center">
+  <img src="html_advanced/media/banner_readme.png" alt="ALX Logo" hieght="200"/>
+</p>
+
+# HTML, ADVANCED (WEEK 03 - PROJECT 9)
 
 ## Table of Contents
 

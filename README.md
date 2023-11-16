@@ -1,9 +1,7 @@
-<div style="display: flex; justify-content: space-between;">
-  <img src="html_advanced/media/Do-hard-things.png"  alt="ALX Logo 1" width="200" style="margin-right: 1px;"/>
-  <img src="html_advanced/media/alx-logo.png" alt="ALX Logo 2" width="200" style="margin-left: 5000px;"/>
-</div>
-
-
+<p align="center">
+  <img src="html_advanced/media/banner_readme.png" alt="ALX Logo" hieght="200"/>
+</p>
+  
 #  ALX iSwE HTML & CSS PROJECTS 
 
 

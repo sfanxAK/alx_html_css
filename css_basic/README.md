@@ -1,4 +1,8 @@
-#  <span style="color: #FFC6A3;">CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)</span>
+<p align="center">
+  <img src="html_advanced/media/banner_readme.png" alt="ALX Logo" hieght="200"/>
+</p>
+
+#  CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)
 
 ## Table of Contents
 
