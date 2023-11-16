@@ -1,4 +1,4 @@
-![ALX](html_advanced/media/alx-logo.png)
+![ALX](html_advanced/media/alx-logo.png | width=100)
 #  ALX HTML & CSS PROJECTS 
 
 
