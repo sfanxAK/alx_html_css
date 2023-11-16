@@ -2,6 +2,8 @@
 
 This project is part of the ALX Intro to Software Engineering program. The goal is to implement a webpage from a designer file, focusing on the HTML structure.
 
+![Figma Page Design](media/Figma-page_school.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -15,7 +17,7 @@ This project is part of the ALX Intro to Software Engineering program. The goal 
 
 ## Introduction
 
-This project involves creating a webpage using pure HTML, following a designer file available on Figma. The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
+This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
 
 ## Learning Objectives
 
