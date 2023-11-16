@@ -1,5 +1,5 @@
 #  <span style="color: #e3e774;">ALX PROJECTS</span>    
-<img src="alx-logo.png" alt="alx_logo" style="width:80px;display:flex;justify-cantent:right">
+<img src="alx-logo.png/html_advanced/media/alx-logo.png" alt="alx_logo" style="width:80px;display:flex;justify-cantent:right">
 
 # Table of Contents
 
