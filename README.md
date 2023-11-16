@@ -1,6 +1,8 @@
-<img src="html_advanced/media/alx-logo.png" alt="ALX Logo" width="200"/>
+<p align="right">
+  <img src="html_advanced/media/alx-logo.png" alt="ALX Logo" width="200"/>
+</p>
 
-#  ALX HTML & CSS PROJECTS 
+#  ALX iSwE HTML & CSS PROJECTS 
 
 
 # Table of Contents
