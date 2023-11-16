@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="html_advanced/media/banner_README.png" alt="ALX Logo" hieght="200"/>
+  <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 
 #  CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)
