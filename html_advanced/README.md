@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="html_advanced/media/banner_readme.png" alt="ALX Logo" hieght="200"/>
+  <img src="html_advanced/media/banner_README.png" alt="ALX Logo" hieght="200"/>
 </p>
 
 # HTML, ADVANCED (WEEK 03 - PROJECT 9)
