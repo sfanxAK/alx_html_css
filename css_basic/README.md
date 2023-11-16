@@ -12,6 +12,10 @@
 
 This project is part of the ALX Intro to Software Engineering program.This project focuses on mastering the basics of Cascading Style Sheets (CSS) to enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of CSS fundamentals and how to apply them to create stylish and responsive web designs.
 
+- - Programing Language used in this Project : 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+
 ## Learning Objectives
 
 By completing this project, you are expected to:

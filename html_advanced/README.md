@@ -18,9 +18,6 @@ This project is part of the ALX Intro to Software Engineering program. on This p
 - Programing Language used in this Project : 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 
-- Programing Language used in this Project : 
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
 
 ## Learning Objectives
 
