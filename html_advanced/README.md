@@ -15,6 +15,13 @@
 
 This project is part of the ALX Intro to Software Engineering program. on This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
 
+- Programing Language used in this Project : 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+
+- Programing Language used in this Project : 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+
 ## Learning Objectives
 
 By completing this project, you are expected to:

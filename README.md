@@ -14,6 +14,10 @@
 
 This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
 
+- Programing Language used in this Project : 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+
 ## Learning Objectives
 
 By completing this project, you are expected to:
