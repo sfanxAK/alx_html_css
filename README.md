@@ -1,4 +1,5 @@
-#  ALX HTML & CSS PROJECTS  ![ALX](alx-logo.png/html_advanced/media/alx-logo.png)
+![ALX](html_advanced/media/alx-logo.png)
+#  ALX HTML & CSS PROJECTS 
 
 
 # Table of Contents
