@@ -2,7 +2,7 @@
   <img src="/html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 <br>
-<h1 align="center">ALX  iSwE : CSS, BASIC PRIJECT (WEEK 03 - PROJECT 10)</h1>
+<h1 align="center">ALX  iSwE : CSS, BASIC PROJECT (WEEK 03 - PROJECT 10)</h1>
 <br>
 
 ## Table of Contents
