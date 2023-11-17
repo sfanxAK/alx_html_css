@@ -102,7 +102,7 @@ Replace `your-username` with your GitHub username.
 <br>
 <p align="center">
   <img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social" target="_blank"/>
-  <space>     </space><img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" target="_blank"/>
+  <space>     </space><img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count"/>
 </p>
 
 ---
