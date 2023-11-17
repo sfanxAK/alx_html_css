@@ -1,7 +1,7 @@
 <p align="center">
   <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
-  
+<br>  
 <h1 align="center">ALX  iSwE : HTML & CSS  PROJECTS</h1>
 <br>
 <br>
@@ -17,7 +17,7 @@
 <br>
 ## Introduction
 
-This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com) This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
+This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
 
 
 - Programing Language used in this Projects :
