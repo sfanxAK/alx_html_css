@@ -1,26 +1,29 @@
 <p align="center">
   <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
-  
-# ALX iSwE HTML & CSS PROJECTS 
-
-# Table of Contents
+<br>  
+<h1 align="center">ALX  iSwE : HTML & CSS  PROJECTS</h1>
+<br>
+<br>
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Learning Objectives](#learning-objectives)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Instructions](#instructions)
-- [ALX_Learner](#ALX_Learner)
+- [ALX_Learner](#alx_Learner)
 
-
+<br>
 ## Introduction
 
-This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
+This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
 
-- Programing Language used in this Project : 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/><div>   <div>
+
+- Programing Language used in this Projects :
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
+
 
 ## Learning Objectives
 
@@ -86,16 +89,20 @@ Replace `your-username` with your GitHub username.
 
 ## ALX_Learner
 
-<h5 align="center">Soufiane Akhait</h5>
+<h4 align="center">SOUFIANE AKHAIT</h4>
 
-<center><i>You can find me here !</i><br>
-
-<a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a><p>   |   </p>
-<a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a><p>   |   </p>>
-<a href="https://github.com/sfanxAK" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github"/></a>
+<h5 align="center">:arrow_down:  <i>You can find me here</i>  :arrow_down:</h5>
 <br>
-<img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social"/><p>   |   </p>
-<img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count" /></center>
+<p align="center">
+  <a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <space>     </space><a href="https://github.com/sfanxAK" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github"/></a>
+  <space>     </space> <a href="https://twitter.com/MrSloplop" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+</p>
+<br>
+<p align="center">
+  <img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social"/>
+  <space>     </space><img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count"/>
+</p>
 
 ---
 
