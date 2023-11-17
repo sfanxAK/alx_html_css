@@ -2,7 +2,7 @@
   <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
   
-<h1 align="center">ALX iSwE HTML & CSS PROJECTS</h1>
+<h1 align="center">ALX  iSwE : HTML & CSS  PROJECTS</h1>
 <br>
 <br>
 ## Table of Contents
@@ -14,14 +14,13 @@
 - [Instructions](#instructions)
 - [ALX_Learner](#alx_Learner)
 
-
+<br>
 ## Introduction
 
-This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
+This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com) This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
 
 
-- Programing Language used in this Project :
-<br>
+- Programing Language used in this Projects :
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
 
@@ -92,7 +91,7 @@ Replace `your-username` with your GitHub username.
 
 <h4 align="center">SOUFIANE AKHAIT</h4>
 
-<h5 align="center"><i>You can find me here</i></h5>
+<h5 align="center">:arrow_down:  <i>You can find me here</i>  :arrow_down:</h5>
 <br>
 <p align="center">
   <a href="https://www.instagram.com/akhiat.soufiane" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
