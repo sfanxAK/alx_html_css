@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
+  <img src="/html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 <br>
 <h1 align="center">ALX  iSwE : HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)</h1>
 <br>
-<br>
+
 ## Project Description
 
 This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). and focuses on learning the basics of HTML (HyperText Markup Language). In this project, we create multiple webpages using HTML, each following the same HTML structure. The webpages include content such as paragraphs, different headlines, images, links, tables, and an embedded tweet from Twitter.
@@ -19,9 +19,6 @@ The project is organized as follows:
   - `index.html`: Webpage with paragraphs, headlines, images, and a table.
   - `tweets.html`: Webpage with an embedded tweet from Twitter.
 
-## Footer
-
-All webpages include a footer with the sign of the creator/learner.
 
 ## File Structure
 
@@ -31,9 +28,9 @@ All webpages include a footer with the sign of the creator/learner.
     - `tweets.html`
     - `README.md`
 
-## Instructions
 
-1. Clone the repository.
+## Instructions
+  1. Clone the repository.
 
 ```bash
     git clone https://github.com/your-username/alx_html_css.git
@@ -45,15 +42,20 @@ Replace `your-username` with your GitHub username.
 ```bash
     cd alx_html_css
 ```
+```bash
+    cd html_basic
+```
 
-2. Open each HTML file in a web browser to view the webpages.
+  2. Open each HTML file in a web browser to view the webpages.
 
 Feel free to modify and enhance the content as you see fit.
+
 
 ## Additional Notes
 
 - Make sure to replace placeholder content, such as image names, with actual content.
 - Add any additional instructions or notes as needed.
+
 
 ## ALX_Learner
 
