@@ -4,7 +4,7 @@
 <br>  
 <h1 align="center">ALX  iSwE : HTML & CSS  PROJECTS</h1>
 <br>
-<br>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -15,6 +15,7 @@
 - [ALX_Learner](#alx_Learner)
 
 <br>
+
 ## Introduction
 
 This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). This projects focuses on mastering the HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) to following the HTML structures and enhance the visual appeal and layout of your web pages. By the end of this project, you will have a solid understanding of HTML & CSS fundamentals and how to apply them to create stylish and responsive webpages.
@@ -100,7 +101,7 @@ Replace `your-username` with your GitHub username.
 </p>
 <br>
 <p align="center">
-  <img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social"/>
+  <img alt="followers" src="https://img.shields.io/github/followers/sfanxAK?label=Followers&style=social" target="_blank"/>
   <space>     </space><img src="https://komarev.com/ghpvc/?username=sfanxAK&color=brightgreen" alt="watching_count"/>
 </p>
 

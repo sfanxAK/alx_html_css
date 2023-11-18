@@ -13,8 +13,8 @@
 - [Project Structure](#project-structure)
 - [Tasks](#tasks)
 - [How to Run](#how-to-run)
-- [Instructions](#Instructions)
-- [Resources](#Resources)
+- [Instructions](#instructions)
+- [Resources](#resources)
 
 ## Introduction
 
@@ -97,10 +97,9 @@ Feel free to modify and enhance the content as you see fit.
 ## RESOURCES
 
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-
-<img src="media/Figma-page_school.png" Alt="Figma Page Design" style="hieght:800px;text-align:center"/>
-
-- You can Get this file on figma [Figma Design - fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg)
+<div align="center"><img src="media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
+<br>
+<div align="center">You can Get this file on figma <a href="https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg">Figma Design - fig file</a></div>
 
 
 ## ALX_Learner
