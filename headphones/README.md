@@ -21,14 +21,15 @@ This project is part of the [ALX Introduction to Software Engineering program](h
 You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
 
 
-<p align="center"><img src="/html_advanced/media/headphone_designed.jpeg" alt="designer webpage" width="400px" /></p>
-<h5 align="center">designed by Nicolas Philippot, UI/UX designer.</h5>
+<p align="center"><img src="/media/headphone_designed.jpeg" alt="designer webpage" width="400px" /></p>
+<h5 align="center">designed by <strong>Nicolas Philippot</strong>, UI/UX designer.</h5>
 
 - Programing Language used in this Project :
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
 
-- 
+- Programs used int this Priject :
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma_badget"/>
 
 ## Prerequisites
 
