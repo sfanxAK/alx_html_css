@@ -1,14 +1,13 @@
 <p align="center">
-  <img src="/html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
+  <img src="media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 <br>
-<h1 align="center">ALX  iSwE : Flexbox PROJECT (WEEK 04 - PROJECT 11)</h1>
+<h1 align="center">ALX  iSwE : Implement a design from scratch (WEEK 04 - PROJECT 12)</h1>
 <br>
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Learning Objectives](#learning-objectives)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Instructions](#Instructions)
@@ -18,23 +17,20 @@
 ## Introduction
 
 This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). In this project, we will implement from scratch, without any library, a web page. we will use all HTML/CSS/Accessibility/Responsive design knowledge that we learned [Previously](#previously).
-This project is a continuation of [CSS BASIC](/css_basic) that we covered last week.
+
+You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
+
+
+<p align="center"><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/60df485eb772ecbad54a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231119T034804Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c764817de77ee0d38b3e6fc4832f209af862ea279173ff5bec924c7d7e3229ba" alt="designer webpage" width="400px" />
+<h5>designed by Nicolas Philippot, UI/UX designer.</h5>
+</p>
+
 
 - Programing Language used in this Project :
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
 
-## Learning Objectives
-
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-- What is Flexbox?
-- How to convert float positioning to a flex display
-- How to horizontally and vertically align elements using Flexbox
-- The difference between the main and cross axes
-- Properties that work on flex elements vs flex container
-- Shorthands for flex
-- How to create a new page with flex in mind
+- 
 
 ## Prerequisites
 
@@ -44,22 +40,9 @@ Before starting this project, it is recommended to have a basic understanding of
 
 The project structure is organized as follows:
 
-- `flexbox/`
+- `headphones/`
     - `0-index.html` 
     - `0-style.css`
-    - `1-index.html` 
-    - `2-style.css`
-    - `3-index.html` 
-    - `3-style.css`
-    - `4-index.html` 
-    - `4-style.css`
-    - `5-index.html` 
-    - `5-style.css`
-    - `6-index.html` 
-    - `6-style.css`
-    - `7-index.html` 
-    - `7-style.css`
-    - `images`
     - `README.md` 
 
 
@@ -79,7 +62,7 @@ Replace `your-username` with your GitHub username.
 ```
 
 ```bash
-    cd flexbox
+    cd headphones
 ```
 
 2. Open each HTML file in a web browser to view the webpages.
@@ -88,6 +71,7 @@ Feel free to modify and enhance the content as you see fit.
 
 ## Previously
 
+- [flexbox](/flexbox)
 - [CSS BASIC](/css_basic)
 - [HTML ADVANCED](/html_advanced)
 - [HTML BASIC](/html_basic)
@@ -112,7 +96,6 @@ Feel free to modify and enhance the content as you see fit.
 ---
 
 **Happy Coding! 😊**
-
 
 
 
