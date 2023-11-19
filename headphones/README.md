@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
+  <img src="/html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 <br>
 <h1 align="center">ALX  iSwE : Implement a design from scratch (WEEK 04 - PROJECT 12)</h1>
@@ -21,7 +21,7 @@ This project is part of the [ALX Introduction to Software Engineering program](h
 You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
 
 
-<p align="center"><img src="html_advanced/media/headphone_designed.jpeg" alt="designer webpage" width="400px" /></p>
+<p align="center"><img src="/html_advanced/media/headphone_designed.jpeg" alt="designer webpage" width="400px" /></p>
 <h5 align="center">designed by Nicolas Philippot, UI/UX designer.</h5>
 
 - Programing Language used in this Project :
