@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/readme_banner.png" alt="ALX Logo" hieght="200"/>
+  <img src="html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 <br>
 <h1 align="center">ALX  iSwE : Implement a design from scratch (WEEK 04 - PROJECT 12)</h1>
@@ -21,10 +21,8 @@ This project is part of the [ALX Introduction to Software Engineering program](h
 You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
 
 
-<p align="center"><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/60df485eb772ecbad54a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231119T034804Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c764817de77ee0d38b3e6fc4832f209af862ea279173ff5bec924c7d7e3229ba" alt="designer webpage" width="400px" />
-<h5>designed by Nicolas Philippot, UI/UX designer.</h5>
-</p>
-
+<p align="center"><img src="html_advanced/media/headphone_designed.jpeg" alt="designer webpage" width="400px" /></p>
+<h5 align="center">designed by Nicolas Philippot, UI/UX designer.</h5>
 
 - Programing Language used in this Project :
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
