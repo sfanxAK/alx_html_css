@@ -22,7 +22,7 @@ You won’t have a lot of instruction, you are free to implement it the way that
 
 
 <p align="center"><img src="media/headphone_designed.jpeg" alt="designer webpage" width="400px" /></p>
-<h5 align="center">designed by <strong>Nicolas Philippot</strong>, UI/UX designer.</h5>
+<h5 align="center">designed by <i>Nicolas Philippot</i>, UI/UX designer.</h5>
 
 - Programing Language used in this Project :
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
