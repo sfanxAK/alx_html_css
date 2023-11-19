@@ -381,7 +381,7 @@
   /* Section Latest news 
       ============================= */
 
-  .section-latest-nes .row {
+  .section-latest-nes.row {
     flex-direction:row-reverse;
   }
 
