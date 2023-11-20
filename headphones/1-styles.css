@@ -67,7 +67,7 @@ button:hover, button:active {
 }
 .header .header-container{
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: var(--section-header-align);
 }
 
@@ -152,7 +152,7 @@ nav ul li {
 .mobile-navbar {
     list-style: none;
     display: none;
-    align-items: center; /* Center-align mobile navbar items */
+    align-items: center;
     /* Initially hide on larger screens */
     flex-direction: column;
     position: absolute;
@@ -165,6 +165,14 @@ nav ul li {
 .mobile-navbar.active {
     display: flex;
     /* Show when active */
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    z-index: 101; /* Ensure it's above other content */
 }
 
 .mobile-navbar li {
@@ -174,39 +182,47 @@ nav ul li {
 
 /* Mobile Navbar Toggle Button */
 .mobile-nav-toggle {
-    display: flex;
-    align-items: center; /* Center-align mobile toggle button */
-    /* Update the left property to 1rem or adjust as needed */
-    left: 1rem;
-    /* Other styles remain unchanged */
+    display: none; /* Initially hide on larger screens */
     font-size: 1.5rem;
     color: var(--color-white);
     background: transparent;
     border: none;
     cursor: pointer;
-    transition: color 0.3s ease; /* Add a transition for a smoother effect */
+    transition: color 0.3s ease;
 }
 
 .mobile-nav-toggle:hover {
     color: var(--link-hover-color);
-    /* Change color on hover for better visual feedback */
 }
-
 
 /* Media query for screens with a width of 480px or less */
 @media only screen and (max-width: 480px) {
     .regular-navbar {
-        display: none;
-        /* Hide regular navbar on smaller screens */
-    }
-
-    .mobile-navbar {
-        display: flex;
-        /* Show mobile navbar on smaller screens */
+        display: none; /* Hide regular navbar on smaller screens */
     }
 
     .mobile-nav-toggle {
-        display: block;
-        /* Show mobile toggle button on smaller screens */
+        display: block; /* Show mobile toggle button on smaller screens */
+        position: absolute; /* Fix the button position */
+        left: 1rem;
+        top: 1.7rem; /* Adjust as needed */
+    }
+
+    /* Hide the mobile navbar by default */
+    .mobile-navbar {
+        display: none;
+    }
+
+    /* Show the mobile navbar when the checkbox is checked */
+    #menuToggle:checked + .navbar-container .mobile-navbar {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        z-index: 99; /* Ensure it's above other content */
     }
 }
