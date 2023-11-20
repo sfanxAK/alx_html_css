@@ -14,6 +14,7 @@
     --font-size-xx-large: 2.875rem;
 
     --font-weight-regular: 400;
+    --font-weight-semi-bold:600;
     --font-weight-bold: 700;
     
     --line-height-base: normal;
@@ -98,8 +99,123 @@ nav .nav-container .nav-tabs {
 	display: none;
 }
 
+/* ===== MAIN ===== */
+
+/* - Section Hero1 - */
+.section-hero1 {
+    position: relative;
+    background: url('media/headphones_hero_1.jpg') center/cover no-repeat;
+    height: var(--hero1-section-height);
+}
+
+.hero1-container {
+    position: absolute;
+    top: 23rem;
+    width: auto;
+    margin: 0 14%;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.hero1-title {
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
+    margin: 0;
+}
+
+.hero1-subtitle {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
+    margin-top: 0;
+}
+
+.hero1-button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    width: 10rem;
+    height: 2.7rem;
+    margin: 3rem;
+    border: none;
+    border-radius: var(--button-boreder-raduice);
+    cursor: pointer;
+    transition: background-color 1s ease, opacity 0.3s ease;
+}
+
+.hero1-button:hover, .hero1-button:active {
+    background-color: var(--link-hover-color);
+    opacity: var(--button-hover-opacity);
+}
+
+.hero1-text {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-big);
+}
+ /* END Hero1 Section */
+
+ /* - Section "What we do..." - */
+
+.what-we-do-section {
+    padding: 6rem 2rem;
+}
+
+.what-we-do-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: var(--content-center-align);
+    max-width: var(--max-content-width);
+    margin: auto;
+}
+
+.what-we-do-container h1 {
+    color: var(--color-primary);
+    font-size: var(--font-size-x-large);
+    text-align: center; 
+    margin-bottom: 3rem;
+}
+
+.what-we-do-container p {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-big);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icon-container {
+    flex: 1 0 100%; 
+    max-width: 200px;
+    margin: 3rem;
+    text-align: center;
+}
+
+.icon-container 
+.custom-icon {
+    color: var(--color-primary);
+    font-size: 4.5rem;
+}
+.icon-container h2 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-big);
+}
+
+
 @media screen and (max-width: 480px) {
-	.nav-container {
+    
+    /* = Header Section = */
+    .nav-container {
 		position: absolute;
 		display: none;
 		z-index: -1;
@@ -177,109 +293,8 @@ nav .nav-container .nav-tabs {
 			transform: translateY(0);
 		}
 	}
-}
 
-/* ===== MAIN ===== */
-
-/* - Section Hero1 - */
-.section-hero1 {
-    position: relative;
-    background: url('media/headphones_hero_1.jpg') center/cover no-repeat;
-    height: var(--hero1-section-height);
-}
-
-.hero1-container {
-    position: absolute;
-    top: 23rem;
-    width: auto;
-    margin: 0 14%;
-    color: var(--text-color);
-    text-align: center;
-}
-
-.hero1-title {
-    font-size: var(--font-size-x-large);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-base);
-    margin: 0;
-}
-
-.hero1-subtitle {
-    font-size: var(--font-size-large);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-base);
-    margin-top: 0;
-}
-
-.hero1-button {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-bold);
-    width: 10rem;
-    height: 2.7rem;
-    margin: 3rem;
-    border: none;
-    border-radius: var(--button-boreder-raduice);
-    cursor: pointer;
-    transition: background-color 1s ease, opacity 0.3s ease;
-}
-
-.hero1-button:hover, .hero1-button:active {
-    background-color: var(--link-hover-color);
-    opacity: var(--button-hover-opacity);
-}
-
-.hero1-text {
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-big);
-}
- /* END Hero1 Section */
-
- /* - Section "What we do..." - */
-
-.what-we-do-section {
-    padding: 4rem 2rem;
-}
-
-.what-we-do-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    max-width: var(--max-content-width);
-    margin: auto;
-}
-
-.what-we-do-container h1 {
-    color: var(--color-primary);
-    font-size: var(--font-size-x-large);
-    text-align: center; 
-}
-
-.what-we-do-container p {
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-big);
-    text-align: center;
-}
-
-.icons-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.icon-container-1,
-.icon-container-2,
-.icon-container-3,
-.icon-container-4 {
-    flex: 1 0 100%; 
-    max-width: 200px;
-    margin: 3rem;
-    text-align: center;
-}
-
-@media screen and (max-width: 480px) {
+    /* = "what we do" section = */
     .icons-container {
         flex-direction: column;
         align-items: center;
@@ -292,5 +307,20 @@ nav .nav-container .nav-tabs {
         flex: 1 0 100%; 
         max-width: none;
         margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    /* = "what we do" section = */
+    .icons-container {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .icon-container-1,
+    .icon-container-2,
+    .icon-container-3,
+    .icon-container-4 {
+        flex: 1 0 100%; 
     }
 }
