@@ -75,7 +75,6 @@ header .nav-wrapper{
 .logo {
     width: 10.2rem;
 }
-
 /* - Navbar Menu - */
 nav .nav-container .nav-tabs {
     float: right;
@@ -95,10 +94,6 @@ nav .nav-container .nav-tabs {
     color: var(--link-hover-color);
 }
 
-.nav-tab:not(:last-child) {
-	padding: 10px 25px;
-	margin: 0;
-}
 
 .hidden {
 	display: none;
@@ -118,14 +113,14 @@ nav .nav-container .nav-tabs {
 	.nav-tabs {
         display: flex;
 		flex-direction: column;
+        align-items: center;
 		margin-top: 7rem;
 		width: 100%;
 	}
 
-	.nav-tab:last-child {
-        padding: 10px 0px;
-
-	}
+    .nav-tab {
+        padding: 1rem 0;
+    }
 
     .menu-btn {
 		position: absolute;
@@ -228,7 +223,7 @@ nav .nav-container .nav-tabs {
     border: none;
     border-radius: var(--button-boreder-raduice);
     cursor: pointer;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
+    transition: background-color 1s ease, opacity 0.3s ease;
 }
 
 .hero1-button:hover, .hero1-button:active {
