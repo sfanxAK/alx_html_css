@@ -180,24 +180,24 @@ nav .nav-container .nav-tabs {
 	}
 }
 
-
 /* ===== MAIN ===== */
 
 /* - Section Hero1 - */
-
 .section-hero1 {
     position: relative;
-    background: url('media/headphones_hero_1.jpg') 
-            center/cover no-repeat;
+    background: url('media/headphones_hero_1.jpg') center/cover no-repeat;
     height: var(--hero1-section-height);
 }
+
 .hero1-container {
-    max-width: var(--max-content-width);
-    margin: var(--content-center-align);
-    padding: 23rem 21rem;
-    color : var(--text-color);
+    position: absolute;
+    top: 23rem;
+    width: auto;
+    margin: 0 14%;
+    color: var(--text-color);
     text-align: center;
 }
+
 .hero1-title {
     font-size: var(--font-size-x-large);
     font-weight: var(--font-weight-bold);
