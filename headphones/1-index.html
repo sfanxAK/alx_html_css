@@ -11,33 +11,25 @@
 
 <body>
     <!-- HEADER -->
-    <header class="header">
-        <div class="header-container">
-            <div class="header-logo">
-                <a href="1-index.html">
-                    <img src="media/logo_headphones.png" alt="Headphones logo">
-                </a>
+    <header>
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                <img class="logo" src="media/logo_headphones.png" alt="Logo">
             </div>
-
-            <!-- Navigation Container -->
-            <nav class="navbar-container">
-                <!-- Regular Navbar -->
-                <ul class="navbar regular-navbar">
-                    <li class="nav-item"><a href="what-we-do.html" class="nav-link">what we do</a></li>
-                    <li class="nav-item"><a href="our-results.html" class="nav-link">our results</a></li>
-                    <li class="nav-item"><a href="contact-us.html" class="nav-link">contact us</a></li>
-                </ul>
-
-                <!-- Mobile Navbar Toggle Button -->
-                <input type="checkbox" id="menuToggle" class="mobile-nav-toggle">
-                <label for="menuToggle" class="mobile-nav-toggle">&#9776;</label>
-
-                <!-- Mobile Navbar -->
-                <ul class="mobile-navbar">
-                    <li class="nav-item"><a href="what-we-do.html" class="nav-link">what we do</a></li>
-                    <li class="nav-item"><a href="our-results.html" class="nav-link">our results</a></li>
-                    <li class="nav-item"><a href="contact-us.html" class="nav-link">contact us</a></li>
-                </ul>
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab"><a href="what-we-do.html" class="nav-link">what we do</a></li>
+                        <li class="nav-tab"><a href="what-we-do.html" class="nav-link">our results</a></li>
+                        <li class="nav-tab"><a href="what-we-do.html" class="nav-link">contact us</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -57,9 +49,4 @@
             </div>
         </section>
     </main>
-    <footer>
-        <!-- Your footer content -->
-    </footer>
-</body>
-
 </html>

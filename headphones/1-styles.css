@@ -54,7 +54,7 @@ button:hover, button:active {
 }
 
 /* ===== Header ===== */
-.header {
+header {
     background: transparent;
     padding: var(--header-padding);
     max-width: var(--max-content-width);
@@ -65,32 +65,126 @@ button:hover, button:active {
     right: 0;
     z-index: 100;
 }
-.header .header-container{
+header .nav-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: var(--section-header-align);
 }
 
 /* - Header Logo - */
-.header-logo img {
+.logo {
     width: 10.2rem;
 }
 
 /* - Navbar Menu - */
-nav .navbar {
+nav .nav-container .nav-tabs {
     float: right;
     list-style: none;
 }
-nav ul li {
-    display: inline-flex;
+.nav-container ul li {
+    display: inline;
     margin: 0 1.5rem;
 }
-.nav-link {
+.nav-tabs .nav-tab a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-small);
 }
+.nav-tabs .nav-tab a:hover,a:active{
+    color: var(--link-hover-color);
+}
+
+.nav-tab:not(:last-child) {
+	padding: 10px 25px;
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+	.nav-container {
+		position: absolute;
+		display: none;
+		z-index: -1;
+		top: 0;
+		left: 0;
+        right: 0;
+		background: transparent;
+	}
+
+	.nav-tabs {
+        display: flex;
+		flex-direction: column;
+		margin-top: 7rem;
+		width: 100%;
+	}
+
+	.nav-tab:last-child {
+        padding: 10px 0px;
+
+	}
+
+    .menu-btn {
+		position: absolute;
+        top: 2.5rem;
+        left: 1.5rem;
+		display: block;
+        width: 1.6rem;
+		cursor: pointer;
+		z-index: 2;
+	}
+
+	.menu-btn .menu {
+		display: block;
+		height: 2px;
+		background: var(--color-white);
+	}
+
+	.menu-btn .menu:nth-child(2) {
+		margin-top: 4px;
+        margin-right: 9px;
+		opacity: 1;
+	}
+
+	.menu-btn .menu:nth-child(3) {
+		margin-top: 4px;
+	}
+
+	#menuToggle:checked + .menu-btn .menu {
+		transition: transform 0.2s ease;
+	}
+
+	#menuToggle:checked + .menu-btn .menu:nth-child(1) {
+		transform: translate3d(0, 6px, 0) rotate(45deg);
+	}
+
+	#menuToggle:checked + .menu-btn .menu:nth-child(2) {
+		transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+		opacity: 0;
+	}
+
+	#menuToggle:checked + .menu-btn .menu:nth-child(3) {
+		transform: translate3d(0, -6px, 0) rotate(-45deg);
+	}
+
+	#menuToggle:checked ~ .nav-container {
+		z-index: 1;
+		display: flex;
+		animation: menu-slide-right 0.3s ease;
+	}
+	@keyframes menu-slide-right {
+		0% {
+			transform: translateY(-60px);
+		}
+		to {
+			transform: translateY(0);
+		}
+	}
+}
+
 
 /* ===== MAIN ===== */
 
@@ -147,82 +241,4 @@ nav ul li {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-big);
 }
-
-/* Mobile Navbar */
-.mobile-navbar {
-    list-style: none;
-    display: none;
-    align-items: center;
-    /* Initially hide on larger screens */
-    flex-direction: column;
-    position: absolute;
-    top: 5rem;
-    left: 0;
-    width: 100%;
-    background: transparent;
-}
-
-.mobile-navbar.active {
-    display: flex;
-    /* Show when active */
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    z-index: 101; /* Ensure it's above other content */
-}
-
-.mobile-navbar li {
-    margin: 1rem;
-    text-align: center; /* Center-align mobile navbar items */
-}
-
-/* Mobile Navbar Toggle Button */
-.mobile-nav-toggle {
-    display: none; /* Initially hide on larger screens */
-    font-size: 1.5rem;
-    color: var(--color-white);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.mobile-nav-toggle:hover {
-    color: var(--link-hover-color);
-}
-
-/* Media query for screens with a width of 480px or less */
-@media only screen and (max-width: 480px) {
-    .regular-navbar {
-        display: none; /* Hide regular navbar on smaller screens */
-    }
-
-    .mobile-nav-toggle {
-        display: block; /* Show mobile toggle button on smaller screens */
-        position: absolute; /* Fix the button position */
-        left: 1rem;
-        top: 1.7rem; /* Adjust as needed */
-    }
-
-    /* Hide the mobile navbar by default */
-    .mobile-navbar {
-        display: none;
-    }
-
-    /* Show the mobile navbar when the checkbox is checked */
-    #menuToggle:checked + .navbar-container .mobile-navbar {
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-        z-index: 99; /* Ensure it's above other content */
-    }
-}
+ /* END Hero1 Section */
