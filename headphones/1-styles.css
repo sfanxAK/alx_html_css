@@ -1,0 +1,212 @@
+:root {
+    --color-primary: #FF6565;
+    --color-white: #ffff;
+    --color-secondary: #071629;
+
+    --text-color: var(--color-white);
+
+    --font-family-base: 'Source Sans Pro';
+    
+    --font-size-small: 0.75rem;
+    --font-size-medium: 0.875rem;
+    --font-size-large: 1rem;
+    --font-size-x-large: 2rem;
+    --font-size-xx-large: 2.875rem;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    
+    --line-height-base: normal;
+    --line-height-big: 1.625rem;
+
+    --link-hover-color: var(--color-primary);
+    
+    /*** SECTIONS ***/
+    --max-content-width: 62.5rem; /* =1000px */
+    --content-center-align: 0 auto;
+    --hero1-section-width: 87.5rem;
+    --hero1-section-height: 50rem;
+    --section-header-align: center;
+
+    /*** HEADER ***/
+    --max-header-height: 2rem;
+    --header-padding: 1.7rem 2rem 1rem 9rem;
+
+    /*** BUTTON ***/
+    --button-hover-opacity: 0.9;
+    --button-boreder-raduice: 1.375rem;
+    --button-box-shadow:0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+}
+
+/** RESET **/
+body, h1, h4, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-base);
+}
+
+/** BASED **/
+a:hover, a:active {
+    color: var(--link-hover-color);
+}
+button:hover, button:active {
+    opacity: var(--button-hover-opacity);
+}
+
+/* ===== Header ===== */
+.header {
+    background: transparent;
+    padding: var(--header-padding);
+    max-width: var(--max-content-width);
+    max-height: var(--max-header-height);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.header .header-container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: var(--section-header-align);
+}
+
+/* - Header Logo - */
+.header-logo img {
+    width: 10.2rem;
+}
+
+/* - Navbar Menu - */
+nav .navbar {
+    float: right;
+    list-style: none;
+}
+nav ul li {
+    display: inline-flex;
+    margin: 0 1.5rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-small);
+}
+
+/* ===== MAIN ===== */
+
+/* - Section Hero1 - */
+
+.section-hero1 {
+    position: relative;
+    background: url('media/headphones_hero_1.jpg') 
+            center/cover no-repeat;
+    height: var(--hero1-section-height);
+}
+.hero1-container {
+    max-width: var(--max-content-width);
+    margin: var(--content-center-align);
+    padding: 23rem 21rem;
+    color : var(--text-color);
+    text-align: center;
+}
+.hero1-title {
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
+    margin: 0;
+}
+
+.hero1-subtitle {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
+    margin-top: 0;
+}
+
+.hero1-button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    width: 10rem;
+    height: 2.7rem;
+    margin: 3rem;
+    border: none;
+    border-radius: var(--button-boreder-raduice);
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.hero1-button:hover, .hero1-button:active {
+    background-color: var(--link-hover-color);
+    opacity: var(--button-hover-opacity);
+}
+
+.hero1-text {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-big);
+}
+
+/* Mobile Navbar */
+.mobile-navbar {
+    list-style: none;
+    display: none;
+    align-items: center; /* Center-align mobile navbar items */
+    /* Initially hide on larger screens */
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
+
+.mobile-navbar.active {
+    display: flex;
+    /* Show when active */
+}
+
+.mobile-navbar li {
+    margin: 1rem;
+    text-align: center; /* Center-align mobile navbar items */
+}
+
+/* Mobile Navbar Toggle Button */
+.mobile-nav-toggle {
+    display: flex;
+    align-items: center; /* Center-align mobile toggle button */
+    /* Update the left property to 1rem or adjust as needed */
+    left: 1rem;
+    /* Other styles remain unchanged */
+    font-size: 1.5rem;
+    color: var(--color-white);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add a transition for a smoother effect */
+}
+
+.mobile-nav-toggle:hover {
+    color: var(--link-hover-color);
+    /* Change color on hover for better visual feedback */
+}
+
+
+/* Media query for screens with a width of 480px or less */
+@media only screen and (max-width: 480px) {
+    .regular-navbar {
+        display: none;
+        /* Hide regular navbar on smaller screens */
+    }
+
+    .mobile-navbar {
+        display: flex;
+        /* Show mobile navbar on smaller screens */
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        /* Show mobile toggle button on smaller screens */
+    }
+}
