@@ -116,13 +116,18 @@
         <section class="contact-us-section">
             <div class="contact-us-container">
                 <h1>Contact Us</h1>
-                <div class="contact-us-inputs">
-                    <input class="input" type="text" placeholder="Name">
-                    <input class="input" type="email" placeholder="Email">
-                    <input class="input" type="text" placeholder="Message">
-                </div>
-                <button class="contact-us-btn">CALL TO ACTION</button>
+                <form id="contactForm" action="#" method="post">
+                    <div class="contact-us-inputs">
+                        <input class="input" type="text" name="name" placeholder="Name" required>
+                        <input class="input" type="email" name="email" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+                        <input class="input" name="message" placeholder="Message" required>
+                    </div>
+                    <button class="contact-us-btn" type="submit">CALL TO ACTION</button>
+                </form>
             </div>
         </section>
     </main>
+    <footer>
+        
+    </footer>
 </html>
