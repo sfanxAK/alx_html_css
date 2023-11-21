@@ -199,7 +199,9 @@ nav .nav-container .nav-tabs {
     margin: 3rem;
     text-align: center;
 }
-
+.icons-container .icon-container:hover {
+    animation: scaleAnimation 1s;
+} 
 .icon-container 
 .custom-icon {
     color: var(--color-primary);
@@ -259,6 +261,9 @@ nav .nav-container .nav-tabs {
 .pentagone {
     position: relative;
     overflow: hidden;
+}
+.pentagone:hover {
+    animation: scaleAnimation 1s;
 }
 
 .pentagone img {
@@ -375,6 +380,19 @@ nav .nav-container .nav-tabs {
 }
 
 /* ===== END FOOTER ===== */
+
+/* Fun Animation -- by soufiane akhait */
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 
 @media screen and (max-width: 480px) {
