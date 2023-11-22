@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/readme_banner.png" alt="ALX Logo" hieght="200"/>
+  <img src="/html_advanced/media/readme_banner.png" alt="ALX Logo" hieght="200"/>
 </p>
 <br>
 <h1 align="center">ALX  iSwE : CSS, ADVANCED (WEEK 04 - PROJECT 13)</h1>
@@ -100,7 +100,7 @@ Feel free to modify and enhance the content as you see fit.
 ## RESOURCES
 
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-<div align="center"><img src="media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
+<div align="center"><img src="/html_advanced/media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
 <br>
 <div align="center">You can Get this file on figma <a href="https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg">Figma Design - fig file</a></div>
 
