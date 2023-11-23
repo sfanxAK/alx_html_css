@@ -1,13 +1,24 @@
 :root {
+        /* COLORS var */
     --color-white: white;
     --color-purple: #C271FF;
     --color-dark: #071629;
     --color-text:#07152780;
-
+        /* FONT var */
     --font-family-base:'Source Sans Pro';
+    --font-size-2x-small: 0.75rem;
+    --font-size-x-small: 0.875rem;
+    --font-size-small: 1rem;
+    --font-size-meduim: 1.125rem;
+    --font-size-large: 1.37rem;
+    --font-size-x-large: 2rem;
+    --font-size-xx-large: 3.75rem;
+    --font-size-3x-large: 7.5rem;
     --font-weight-small: 300;
     --font-weight-meduim: 400;
     --font-weight-large: 700;
+            /* BUTTON var */
+
 }
 /* = BASED = */
 * {
@@ -61,7 +72,7 @@ header .navbar {
 }
 header .navbar a {
     color: var(--color-white);
-    font-size: 12px;
+    font-size: var(--font-size-2x-small);
     font-weight: var(--font-weight-large);
 }
 header .navbar a:hover {
@@ -69,7 +80,7 @@ header .navbar a:hover {
 }
 /* ============== END HEADER ============ */
 
-/* ============== SECTION1 ============ */
+/* ============== MAIN ============ */
 .section .title {
     display: flex;
     flex-direction: column;
@@ -78,19 +89,19 @@ header .navbar a:hover {
     padding-top: 5rem;
 }
 
-.banner div h1 {
+.banner .title h1 {
     color: var(--color-white);
-    font-size: 8rem;
+    font-size: var(--font-size-3x-large);
     font-weight: var(--font-weight-large);
 }
-.banner div h1+p {
+.banner .title h1+p {
     word-spacing: 60px;
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: var(--font-size-small);
     font-weight: var(--font-weight-large);
     margin-bottom: 50px;
 }
-.banner div button {
+.banner .title button {
     width: 170px;
     height: 44px;
     border-radius: 22px;
@@ -98,41 +109,41 @@ header .navbar a:hover {
     border: none;
     box-shadow: 1px 1px 10px rgb(49, 49, 49);
     color: var(--color-white);
-    font-size: 14px;
+    font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     padding: 10px;
     margin-bottom: 3.5rem;
 }
-.banner div span {
+.banner .team-container span {
     color: var(--color-purple);
-    font-size: 32px;
+    font-size: var(--font-size-x-large);
     font-weight: var(--font-weight-large);
 }
-.banner div h2 {
+.banner .team-container h2 {
     color: var(--color-white);
-    font-size: 32px;
+    font-size: var(--font-size-x-large);
     font-weight: var(--font-weight-small);
     margin-bottom: 80px;
 }
-.banner .users {
+.banner .team {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 150px;
 }
-.banner .users img {
+.banner .team img {
     width: 150px;
     height: 150px;
     border-radius: 100%;
     margin-bottom: 10px;
 }
-.banner .users div h3 {
+.banner .team .team-member h3 {
     color: var(--color-white);
     font-size: 18px;
     font-weight: 900;
     line-height: 27px; 
 }
-.banner .users div p {
+.banner .team .team-member p {
     color: var(--color-white);
     font-size: 16px;
     font-style: italic;
@@ -213,7 +224,7 @@ header .navbar a:hover {
 }
 .video h2+p {
     color: rgba(7, 22, 41, 0.50);
-    font-size: 14px;
+    font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     line-height: 24px;
     margin-bottom: 10px;
@@ -231,7 +242,7 @@ header .navbar a:hover {
 }
 .ph h3 {
     color: var(--color-purple);
-    font-size: 14px;
+    font-size: var(--font-size-x-small);
     font-weight: 600;
     line-height: 27px;
 }
@@ -243,7 +254,7 @@ header .navbar a:hover {
 }
 .rate p {
     color: var(--color-purple);
-    font-size: 14px;
+    font-size: var(--font-size-x-small);
     font-weight: 600;
     line-height: 27px;
 }
@@ -280,7 +291,7 @@ header .navbar a:hover {
     border: none;
     margin-top: 100px;
     color: var(--color-white);
-    font-size: 12px;
+    font-size: var(--font-size-2x-small);
     font-weight: 600;
     padding: 10px;
     box-shadow: 4px 4px 4px black;
@@ -294,7 +305,7 @@ header .navbar a:hover {
 }
 #smiles p {
     color: var(--color-white);
-    font-size: 14px;
+    font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     line-height: 26px;
     margin-top: 10px;
@@ -329,7 +340,7 @@ header .navbar a:hover {
 }
 .faq p {
     color: rgba(7, 22, 41, 0.50);
-    font-size: 14px;
+    font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     line-height: 24px;
 }
@@ -349,7 +360,7 @@ header .navbar a:hover {
 }
 .foot p {
     color: var(--color-white);
-    font-size: 12px;
+    font-size: var(--font-size-2x-small);
     font-weight: var(--font-weight-meduim);
     opacity: 0.3517;
 }
