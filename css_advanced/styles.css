@@ -1,9 +1,10 @@
 :root {
         /* COLORS var */
     --color-white: white;
+    --color-black: black;
     --color-purple: #C271FF;
     --color-dark: #071629;
-    --color-text:#07152780;
+    --color-text: #07152780;
         /* FONT var */
     --font-family-base:'Source Sans Pro';
     --font-size-2x-small: 0.75rem;
@@ -17,8 +18,8 @@
     --font-weight-small: 300;
     --font-weight-meduim: 400;
     --font-weight-large: 700;
-            /* BUTTON var */
-
+        /* BUTTON var */
+    --box-shadaw: 1px 1px 10px rgb(49, 49, 49);
 }
 /* = BASED = */
 * {
@@ -26,18 +27,18 @@
     margin: 0;
     padding: 0;
 }
-/* = END BASED = */
 
 html{
     height: 100%;
 }
 body {
-    background: url("./images/Object.png") center/cover no-repeat;
+    background: url("./media/Object.png") center/cover no-repeat;
     background-position-y: 0%;
 }
 .banner {
     align-items: center;
     text-align: center;
+    margin-bottom: 2rem;
 }
 main {
     position: relative;
@@ -54,6 +55,7 @@ button:hover {
     cursor: pointer;
     opacity: .9;
 }
+/* = END BASED = */
 
 /* ============== HEADER ============ */
 header {
@@ -81,7 +83,9 @@ header .navbar a:hover {
 /* ============== END HEADER ============ */
 
 /* ============== MAIN ============ */
-.section .title {
+
+/* ===== BANNER =====*/
+.banner .title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,17 +111,17 @@ header .navbar a:hover {
     border-radius: 22px;
     background: var(--color-purple);
     border: none;
-    box-shadow: 1px 1px 10px rgb(49, 49, 49);
+    box-shadow: var(--box-shadaw);
     color: var(--color-white);
     font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     padding: 10px;
     margin-bottom: 3.5rem;
 }
-.banner .team-container span {
+.banner .team-container h2 span {
     color: var(--color-purple);
     font-size: var(--font-size-x-large);
-    font-weight: var(--font-weight-large);
+    font-weight: bold;
 }
 .banner .team-container h2 {
     color: var(--color-white);
@@ -150,9 +154,9 @@ header .navbar a:hover {
     font-weight: 100;
     line-height: 24px;
 }
-/* ============== END SECTION1 ============ */
+/* ===== END BANNER ===== */
 
-/* ============== SECTION2 ============ */
+/* ===== QUOTE ===== */
 .quotes {
     padding: 100px;
     background: var(--color-purple);
@@ -189,9 +193,9 @@ header .navbar a:hover {
     font-weight: var(--font-weight-meduim);
     line-height: 33.6px;
 }
-/* ============== END SECTION2 ============ */
+/* ===== END QUOTE ===== */
 
-/* ============== SECTION3 ============ */
+/* ===== VIDEO ===== */
 .videos-list {
     padding: 100px;
     background: var(--color-white);
@@ -217,13 +221,13 @@ header .navbar a:hover {
     text-align: start;
 }
 .video h2 {
-    color: #071629;
+    color: var(--color-dark);
     font-size: 16px;
     font-weight: var(--font-weight-large);
     margin: 10px 0px;
 }
 .video h2+p {
-    color: rgba(7, 22, 41, 0.50);
+    color: var(--color-text);
     font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     line-height: 24px;
@@ -258,13 +262,13 @@ header .navbar a:hover {
     font-weight: 600;
     line-height: 27px;
 }
-/* ============== END SECTION3 ============ */
+/* ===== END VIDEO ===== */
 
-/* ============== SECTION4 ============ */
+/* ===== MEMBERSHIP ===== */
 .membership{
     padding-top: 100px;
     padding-bottom: 50px;
-    background: #071629;
+    background: var(--color-dark);
 }
 .membership h1 {
     color: var(--color-white);
@@ -294,7 +298,7 @@ header .navbar a:hover {
     font-size: var(--font-size-2x-small);
     font-weight: 600;
     padding: 10px;
-    box-shadow: 4px 4px 4px black;
+    box-shadow: var(--box-shadaw)
 }
 #smiles h2 {
     color: var(--color-white);
@@ -310,16 +314,16 @@ header .navbar a:hover {
     line-height: 26px;
     margin-top: 10px;
 }
-/* ============== END SECTION4 ============ */
+/* ===== END MEMBERSHIP ===== */
 
-/* ============== SECTION5 ============ */
+/* ===== FAQ ===== */
 .FAQ {
     padding-top: 100px;
     padding-bottom: 50px;
     background: var(--color-white);
 }
 .FAQ h1 {
-    color: #071629;
+    color: var(--color-dark);
     font-size: 60px;
     font-weight: var(--font-weight-small);
     margin-bottom: 70px;
@@ -339,12 +343,12 @@ header .navbar a:hover {
     margin-bottom: 20px;
 }
 .faq p {
-    color: rgba(7, 22, 41, 0.50);
+    color: var(--color-text);
     font-size: var(--font-size-x-small);
     font-weight: var(--font-weight-meduim);
     line-height: 24px;
 }
-/* ============== END SECTION4 ============ */
+/* ===== END FAQ ===== */
 
 /* ============== FOOTER ============ */
 .foot {
