@@ -1,0 +1,448 @@
+:root {
+    /* COLOR VARIABLE */
+    --text-color: white;
+    --second-color: #C271FF;
+    --color-dark:#071629;
+    --text-color-lighter:rgb(157, 157, 157);
+    
+    /* FONT VARIABLE */
+    --font-family-base: 'Source Sans Pro';
+    --font-weight-small: 300;
+    --font-weight-meduim: 400;
+    --font-weight-large: 700;
+    --font-weight-extra-large: 900;
+
+    --font-size-3xx-small: 0.75rem;
+    --font-size-2x-small: 0.875rem;
+    --font-size-x-small: 1rem;
+    --font-size-small: 1.25rem;
+    --font-size-meduim: 1.35rem;
+    --font-size-large: 2rem;
+    --font-size-x-large: 3.75rem;
+    --font-size-2x-large: 7.5rem;
+
+    /* BUTTON VARIABLE */
+    --button-color: var(--second-color);
+    --button-shadow: 1px 1px 4px rgb(49, 49,49);
+    
+    /* HEADER VARIABLE */
+    --max-header-height: 2rem;
+    --max-header-width: 69rem;
+    --headerpx-padding: 2rem 2rem 1rem 2rem;
+
+}
+
+    /* = RESET = */
+* {
+    margin: 0;
+    padding: 0;
+} 
+    /* = BASE = */
+html{
+    background-color: var(--color-dark);
+}
+body{
+    font-family: var(--font-family-base);
+    text-align: center;
+    align-items: center;
+}
+a {
+    color: var(--text-color);
+    text-decoration: none!important;
+}
+a:hover {
+    color: var(--second-color)!important;
+}
+button:hover{
+    opacity: 0.9;
+}
+
+
+/* ========= HEADER ========= */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: var(--max-header-height);
+    z-index: 5;
+}
+.Header-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+.Header-Logo .Logo img {
+    size: 10rem;
+}
+.Navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 3rem;
+}
+.Navbar a {
+    font-size: var(--font-size-3xx-small);
+    font-weight: var(--font-weight-large);
+}
+
+/* ========= MAIN ========= */
+
+/* ==-== HERO SECTION ==-== */
+
+/* Background Section */
+.Banner-Section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("./media/banner.png") center no-repeat;
+    filter: grayscale(100%);
+    background-size: 100%;
+    background-position-y: -4rem;
+    z-index: 0;
+}
+.Background-Filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    content: "";
+    background: linear-gradient(
+    to bottom,
+    rgba(41, 48, 61, 0.0001),
+    rgba(7, 22, 41, 1)
+    );
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+/* backgroun section END */
+
+/* Hero Section Part1 */
+.Title-Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    z-index: 3;
+}
+.Title-Container h1 {
+    padding-top: 10rem;
+    color: var(--text-color);
+    font-size: var(--font-size-2x-large);
+    font-weight: var(--font-weight-large);
+}
+.Title-Container p {
+    color: var(--text-color);
+    font-size: var(--font-size-small);
+    word-spacing: 3.5rem;
+}
+.Title-Container button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-size: var(--font-size-x-small);
+    border: none;
+    border-radius: var(--font-size-large);
+    box-shadow: var(--button-shadow);
+    padding: 0.83rem;
+    margin-top: 4.37rem;
+    cursor: pointer;
+}
+/* Hero Section Part2 */
+.TeamMember-Section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5rem;
+    z-index: 3;
+    margin: 5rem 0 3rem 0;
+}
+.TeamMember-Section h2 {
+    color: var(--text-color);
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-small);
+}
+.TeamMember-Section h2 span {
+    color: var(--second-color);
+    font-weight: var(--font-weight-large);
+}
+.TeamMember-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.TeamMember-Container .TeamMember img {
+    border-radius: 100%;
+    border: none;
+    width: 9rem;
+}
+.TeamMember-Container .TeamMember h3 {
+    color: var(--text-color);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-extra-large);
+}
+.TeamMember-Container .TeamMember p {
+    color: var(--text-color);
+    font-weight: var(--font-weight-small);
+    font-style: italic;
+}
+
+/* ==-== QUOTE SECTION ==-== */
+.Quote-Container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   background-color: var(--second-color);
+   padding: 7rem 5rem;
+}
+.Quote-Container img {
+    border: none;
+    width: 10rem;
+    border-radius: 100%;
+}
+.Quote-Container .Author {
+    color: var(--text-color);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;    
+}
+.Author blockquote {
+    padding-bottom: 2rem;
+    font-size: var(--font-size-meduim);
+    font-weight: var(--font-weight-small);
+    line-height: 2rem;
+}
+div.Author p:nth-child(2) {
+    font-size: var(--font-size-meduim);
+    font-weight: var(--font-weight-large);
+}
+div.Author p:nth-child(3) {
+    font-size: var(--font-size-meduim);
+    font-weight: var(--font-weight-meduim);
+    font-style: italic;
+}
+
+/* ==-== VIDEO SECTION ==-== */
+
+.Video-Section {
+    background-color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    padding: 6rem 11rem;
+}
+.Video-Section h1 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-small);
+    color: var(--color-dark);
+}
+.Video-Section h1 span{
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-extra-large);
+    color: var(--second-color);
+}
+/* Video items */
+.Video-Section .Videos-Container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.65rem;
+    text-align: left;
+}
+.Videos-Container .Video-container Video{
+    width: 15rem;
+    height: 9rem;
+}
+.Video-container h2 {
+    color: var(--color-dark);
+    font-size: var(--font-size-x-small);
+    font-weight: var(--font-weight-large);
+    padding: 0.5rem;
+}
+.Video-container p {
+    color: var(--text-color-lighter);
+    font-size: var(--font-size-2x-small);
+    font-weight: var(--font-weight-meduim);
+    padding: 0 0.5rem;
+}
+/* Video Author items */
+.Video-container .Video-Author {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: 1.2rem .8rem 0 .8rem;
+}
+.Video-container .Video-Author img{
+    border: none;
+    border-radius: 100%;
+    width: 1.875rem;
+}
+.Video-container .Video-Author h3 {
+    color: var(--second-color);
+    font-size: var(--font-size-2x-small);
+    font-weight: var(--font-weight-large);
+}
+/* Video Rating items */
+.Video-container .Rating-container {
+    display: flex;
+    justify-content: space-between;
+    padding: .9rem;
+}
+.Video-container .Rating-container .Rating {
+    display: flex;
+    justify-content: flex-start;
+    gap: .3rem;
+    width: 6.6rem;
+}
+.Rating-container .Rating img {
+    height: 0.94rem;
+}
+.Rating-container .Rating img:nth-child(5) {
+    filter: grayscale(95%);
+}
+.Video-container .Rating-container p {
+    color: var(--second-color);
+    font-size: var(--font-size-2x-small);
+    font-weight: var(--font-weight-extra-large);
+}
+
+/* ==-== MEMBERSHIP SECTION ==-== */
+.Membership-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3.8rem;
+    color: var(--text-color);
+}
+.Membership-Section h1 {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-meduim);
+}
+.Membership-Section h1 span {
+    color: var(--second-color);
+    font-weight: var(--font-weight-extra-large);
+}
+.Membership-Section button {
+    background-color: var(--second-color);
+    color: var(--text-color);
+    font-size: var(--font-size-2x-small);
+    padding: 0.9rem;
+    border: none;
+    border-radius: 10rem;
+    width: 11rem;
+    cursor: pointer;
+    margin-top: 5.2rem;
+}
+
+.Membership-Container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5.75rem;
+    padding: 2.5rem 4.5rem 0 4.5rem;
+}
+.Membership-Container .Offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.Offer img {
+    width: 2.73rem;
+    padding-bottom: 1.1rem;
+}
+.Offer h2 {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-large);
+    padding-bottom: 1.1rem;
+}
+.Offer p {
+    font-size: var(--font-size-2x-small);
+    font-weight: var(--font-weight-small);
+    line-height: 1.8rem;
+}
+
+/* ==-== FAQ SECTION ==-== */
+.FAQ-Section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 1rem;
+}
+.FAQ-Section h1 {
+    font-size: var(--font-size-x-large);
+    color: var(--color-dark);
+    font-weight: 100;
+}
+.FAQ-Container .row-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 9rem;
+    padding: 1rem 8rem;
+}
+.row-block .item-block{
+    display: flex;
+    flex-direction: column;
+}
+.row-block .item-block h2 {
+    font-size: var(--font-size-x-small);
+    font-weight: var(--font-weight-large);
+    color: var(--color-dark);
+    padding: 1rem;
+}
+.row-block .item-block p {
+    font-size: var(--font-size-2x-small);
+    font-weight: var(--font-weight-meduim);
+    color: var(--text-color-lighter);
+    line-height: 1.5rem;
+    padding-right: 2rem;
+}
+
+/* ========= FOOTER ========= */
+.Footer-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 2rem;
+}
+.Footer-Section .Footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9rem;
+}
+.Footer-container .Footer-Logo {
+    width: 10rem;
+}
+.Footer-container .Social-Navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+.Social-Navbar .Social-icon img {
+    height: 1.475rem;
+}
+.Social-icon .Social-Navbar img:hover {
+    cursor: pointer;
+}
+.Footer-Section p {
+    color: var(--text-color-lighter);
+    font-size: var(--font-size-3xx-small);
+}
