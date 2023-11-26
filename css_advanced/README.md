@@ -18,7 +18,8 @@
 
 ## Introduction
 
-This project is part of the ALX Intro to Software Engineering program. on This project involves creating a webpage using pure HTML, following a designer file available on Figma [fig file](https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg). The tasks include implementing the header, banner, quote, videos, membership, FAQ, and footer sections.
+This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). In this project, we will <strong>implement design from scratch</strong>, without any library, a webpage. we will use all HTML/CSS/Accessibility/Responsive design knowledge that we learned [Previously](#previously).
+This project is a continuation of [HTML ADVANCED](../html_advanced) that we covered last week.
 
 - Programing Language used in this Project :
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
@@ -101,7 +102,7 @@ Feel free to modify and enhance the content as you see fit.
 ## RESOURCES
 
 - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-<div align="center"><img src="/html_advanced/media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
+<div align="center"><img src="../html_advanced/media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
 <br>
 <div align="center">You can Get this file on figma <a href="https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg">Figma Design - fig file</a></div>
 
