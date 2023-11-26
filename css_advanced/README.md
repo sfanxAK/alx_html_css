@@ -47,8 +47,9 @@ Before starting this project, it is recommended to have a basic understanding of
 The project structure is organized as follows:
 
 
-- `html_advanced/`
+- `css_advanced/`
     - `index.html` (Main HTML file)
+    - `style.html` (Main CSS file)
     - `media` (Folder contain logo, images, icons...)
     - `README.md` (Project documentation)
 
