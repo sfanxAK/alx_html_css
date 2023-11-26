@@ -53,23 +53,64 @@ Before starting this project, it is recommended to have a basic understanding of
 The project structure is organized as follows:
 
 - `alx_html_css/`
-    - `css_basic/`
+    - `css_advanced/` [CSS, ADVANCED (WEEK 04 - PROJECT 13)](https://github.com/sfanxAK/alx_html_css/tree/main/css_advanced)
+        - `index.html` 
+        - `style.html`
+        - `media`
+        - `README.md`
+    -  `css_basic/`  [CSS, BASIC PROJECT (WEEK 03 - PROJECT 10)](https://github.com/sfanxAK/alx_html_css/tree/main/css_basic)
         - `index.html` 
         - `tweets.html`
         - `base.css` 
         - `style.css` 
         - `banner.jpg`
         - `README.md` 
-    - `html_advanced/`
+    - `flexbox/`  [Flexbox PROJECT (WEEK 04 - PROJECT 11)](https://github.com/sfanxAK/alx_html_css/tree/main/flexbox)
+        - `0-index.html` 
+        - `0-style.css`
+        - `1-index.html` 
+        - `2-style.css`
+        - `3-index.html` 
+        - `3-style.css`
+        - `4-index.html` 
+        - `4-style.css`
+        - `5-index.html` 
+        - `5-style.css`
+        - `6-index.html` 
+        - `6-style.css`
+        - `7-index.html` 
+        - `7-style.css`
+        - `images`
+        - `README.md` 
+    - `headphones/`  [Implement a design from scratch (WEEK 04 - PROJECT 12)](https://github.com/sfanxAK/alx_html_css/tree/main/headphones)
+        - `media` 
+        - `0-index.html`
+        - `0-style.css`
+        - `1-index.html`
+        - `1-style.css`
+        - `2-index.html`
+        - `2-style.css`
+        - `3-index.html`
+        - `3-style.css`
+        - `4-index.html`
+        - `4-style.css`
+        - `5-index.html`
+        - `5-style.css`
+        - `6-index.html`
+        - `6-style.css`
+        - `7-index.html`
+        - `7-style.css`
+        - `README.md` 
+    - `html_advanced/` [HTML, ADVANCED (WEEK 03 - PROJECT 9)](https://github.com/sfanxAK/alx_html_css/tree/main/html_advanced)
         - `index.html` 
         - `media` 
-        - `README.md`
-    - `html_basic`:
+        - `README.md` 
+    - `html_basic/`  [HTML, BASIC PROJECT (WEEK 03 - PROJECT 8)](https://github.com/sfanxAK/alx_html_css/tree/main/html_basic)
         - `base_index.html`
         - `index.html`
         - `tweets.html`
         - `README.md`
-- `README.md`
+- `README.md` (Projects documentation)
 
 
 ## Instructions
