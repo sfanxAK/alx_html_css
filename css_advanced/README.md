@@ -5,6 +5,15 @@
 <h1 align="center">ALX  iSwE : CSS, ADVANCED (WEEK 04 - PROJECT 13)</h1>
 <br>
 
+
+- Programing Language used in this Project :
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
+
+- Programs used int this Project :
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma_badget"/>
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -14,19 +23,16 @@
 - [Tasks](#tasks)
 - [How to Run](#how-to-run)
 - [Instructions](#instructions)
-- [Resources](#resources)
+- [ALX_Learner](#ALX-Learner)
 
 ## Introduction
 
-This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). In this project, we will <strong>implement design from scratch</strong>, without any library, a webpage. we will use all HTML/CSS/Accessibility/Responsive design knowledge that we learned [Previously](#previously).
-This project is a continuation of [HTML ADVANCED](../html_advanced) that we covered last week.
-
-- Programing Language used in this Project :
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html_badget"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css_badget" />
-
-- Programs used int this Project :
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma_badget"/>
+This project is part of the [ALX Introduction to Software Engineering program](https://www.alxafrica.com). In this project, we will <strong>implement design from scratch</strong>, without any library, a webpage. we will use all HTML/CSS/Accessibility/Responsive design knowledge that we learned Previously.
+This project is a continuation of [HTML ADVANCED](../html_advanced) that we covered last weeks.
+<h4 align="center">Mockup</h4>
+<div align="center"><img src="../html_advanced/media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
+<br>
+<div align="center">You can Get this file on figma <a href="https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg">Figma Design - fig file</a></div>
 
 ## Learning Objectives
 
@@ -98,13 +104,6 @@ Replace `your-username` with your GitHub username.
 2. Open each HTML file in a web browser to view the webpages.
 
 Feel free to modify and enhance the content as you see fit.
-
-## RESOURCES
-
-- [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
-<div align="center"><img src="../html_advanced/media/Figma-page_schoo.png" Alt="Figma Page Design" style="width:500px;hieght:600px;"/></div>
-<br>
-<div align="center">You can Get this file on figma <a href="https://intranet.alxswe.com/rltoken/LTAnuL7o_w6kq8u9hUicgg">Figma Design - fig file</a></div>
 
 
 ## ALX_Learner
