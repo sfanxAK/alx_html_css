@@ -104,7 +104,7 @@ nav .nav-container .nav-tabs {
 /* - Section Hero1 - */
 .section-hero1 {
     position: relative;
-    background: url('media/headphones_hero_1.jpg') center/cover no-repeat;
+    background: url('../media/headphones_hero_1.jpg') center/cover no-repeat;
     height: var(--hero1-section-height);
 }
 
@@ -214,7 +214,7 @@ nav .nav-container .nav-tabs {
 /* - Our Results Section - */
 
 .our-results-section {
-    background: url('media/headphones_hero_2.jpg') center/cover no-repeat;
+    background: url('../media/headphones_hero_2.jpg') center/cover no-repeat;
     padding: 2rem 2rem;
 }
 
@@ -226,6 +226,7 @@ nav .nav-container .nav-tabs {
     text-align: center; 
     max-width: var(--max-content-width);
     margin: auto;
+    padding-bottom: 2rem;
 }
 
 .our-results-container h1 {
@@ -258,13 +259,14 @@ nav .nav-container .nav-tabs {
 }
 .pentagone {
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
 }
-
-.pentagone img {
-    width: 100%; 
-    color: var(--color-primary);
-    max-width: 11rem;
+.pentagon-shape {
+	position: relative;
+	width: 10rem;
+	height: 9.75rem;
+	background: var(--color-primary);
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
 }
 .text-inside {
     color: var(--color-white);
@@ -284,6 +286,7 @@ nav .nav-container .nav-tabs {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .contact-us-container h1 {
     color: var(--color-primary);
@@ -480,7 +483,7 @@ nav .nav-container .nav-tabs {
     .pentagone {
         flex: 1 0 100%; 
         max-width: none;
-        margin: 1rem 0;
+        margin: 0.7rem 0;
     }
    
 }
@@ -529,14 +532,15 @@ nav .nav-container .nav-tabs {
     /* = Our Results Section =*/
     .pentagone-container {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
     }
     .pentagone {
-        flex: 1 0 48%;
-        padding: 1%;
+        flex: -3 0 48%;
+        margin: 2rem;
     }
 
 }

@@ -74,7 +74,7 @@ header .nav-wrapper{
 
 /* - Header Logo - */
 .logo {
-    width: 10.2rem;
+    width: 163px;
 }
 /* - Navbar Menu - */
 nav .nav-container .nav-tabs {
@@ -104,7 +104,7 @@ nav .nav-container .nav-tabs {
 /* - Section Hero1 - */
 .section-hero1 {
     position: relative;
-    background: url('media/headphones_hero_1.jpg') center/cover no-repeat;
+    background: url('../media/headphones_hero_1.jpg') center/cover no-repeat;
     height: var(--hero1-section-height);
 }
 
@@ -160,7 +160,7 @@ nav .nav-container .nav-tabs {
  /* - Section "What we do..." - */
 
 .what-we-do-section {
-    padding: 6rem 2rem 1rem 2rem;
+    padding: 6rem 2rem;
 }
 
 .what-we-do-container {
@@ -211,71 +211,6 @@ nav .nav-container .nav-tabs {
     line-height: var(--line-height-big);
 }
 
-/* - Our Results Section - */
-
-.our-results-section {
-    background: url('media/headphones_hero_2.jpg') center/cover no-repeat;
-    padding: 2rem 2rem;
-}
-
-.our-results-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text */
-    max-width: var(--max-content-width);
-    margin: auto;
-}
-
-.our-results-container h1 {
-    color: var(--color-primary);
-    font-size: var(--font-size-x-large);
-    text-align: center; 
-    margin:3rem 0;
-}
-
-.our-results-container p {
-    color: var(--color-white);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-big);
-    text-align: center;
-    margin-bottom: 5rem;
-}
-
-.pentagone-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.pentagone h2 {
-    margin: 15px;
-    font-size: 2.88rem;
-    font-weight: var(--font-weight-semi-bold);
-    line-height: var(--line-height-big);
-}
-.pentagone {
-    position: relative;
-    overflow: hidden; /* Hide overflowing content */
-}
-
-.pentagone img {
-    width: 100%; /* Make the image fill the container */
-    color: var(--color-primary);
-    max-width: 11rem;
-
-}
-
-.text-inside {
-    color: var(--color-white);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-}
 
 @media screen and (max-width: 480px) {
     
@@ -365,19 +300,10 @@ nav .nav-container .nav-tabs {
         align-items: center;
     }
 
-    .icon-container{
-        flex: 1 0 100%; 
-        max-width: none;
-        margin: 1rem 0;
-    }
-
-    /* = Our Results Section =*/
-    .pentagone-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .pentagone {
+    .icon-container-1,
+    .icon-container-2,
+    .icon-container-3,
+    .icon-container-4 {
         flex: 1 0 100%; 
         max-width: none;
         margin: 1rem 0;
@@ -391,20 +317,10 @@ nav .nav-container .nav-tabs {
         flex-wrap: wrap;
         text-align: center;
     }
-    .icon-container {
+    .icon-container-1,
+    .icon-container-2,
+    .icon-container-3,
+    .icon-container-4 {
         flex: 1 0 100%; 
-    }
-
-    /* = Our Results Section =*/
-    .pentagone-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .pentagone {
-        flex: 1 0 48%;
-        padding: 1%;
     }
 }

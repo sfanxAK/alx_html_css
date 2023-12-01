@@ -104,7 +104,7 @@ nav .nav-container .nav-tabs {
 /* - Section Hero1 - */
 .section-hero1 {
     position: relative;
-    background: url('media/headphones_hero_1.jpg') center/cover no-repeat;
+    background: url('../media/headphones_hero_1.jpg') center/cover no-repeat;
     height: var(--hero1-section-height);
 }
 
@@ -216,7 +216,7 @@ nav .nav-container .nav-tabs {
 /* - Our Results Section - */
 
 .our-results-section {
-    background: url('media/headphones_hero_2.jpg') center/cover no-repeat;
+    background: url('../media/headphones_hero_2.jpg') center/cover no-repeat;
     padding: 2rem 2rem;
 }
 
