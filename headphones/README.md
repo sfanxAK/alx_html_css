@@ -40,9 +40,24 @@ Before starting this project, it is recommended to have a basic understanding of
 The project structure is organized as follows:
 
 - `headphones/`
-    - `0-index.html` 
+    - `media` (Folder contain logo, images, icons...)
+    - `0-index.html`
     - `0-style.css`
-    - `README.md` 
+    - `1-index.html`
+    - `1-style.css`
+    - `2-index.html`
+    - `2-style.css`
+    - `3-index.html`
+    - `3-style.css`
+    - `4-index.html`
+    - `4-style.css`
+    - `5-index.html`
+    - `5-style.css`
+    - `6-index.html`
+    - `6-style.css`
+    - `7-index.html`
+    - `7-style.css`
+    - `README.md` (Project documentation)
 
 
 ## Instructions
