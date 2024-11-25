@@ -1,0 +1,45 @@
+:root {
+  --primary-color: rgb(231, 70, 1);
+  --second-color: rgb(31, 29, 34);
+  --background-color: #e9e4e4;
+
+  --base-font: 'Source Sans Pro';
+  --logo-font: 'Indie Flower';
+}
+/* BASE */
+  html{
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
+  }
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family:var(--base-font);
+  }
+  .logo {
+    color: var(--second-color);
+    font-family: var(--logo-font);
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+/* Header */
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    }
+    .nav-link a {
+      font-weight: 600;
+      }
+      a:hover {
+      color: #252525;
+      }
+

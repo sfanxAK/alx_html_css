@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form with Checkboxes and File Upload</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            display: block;
+            margin-bottom: 15px;
+            padding: 5px;
+            width: 300px;
+        }
+        input[type="submit"] {
+            background-color: greenyellow;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: rgba(172, 255, 47, 0.807);
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Feedback:</label>
+
+        <label for="excellent">Excellent:</label>
+        <input type="checkbox" id="excellent" value="excellent" name="excellent" required>
+
+        <label for="good">Good:</label>
+        <input type="checkbox" id="good" value="good" name="good" required>
+
+        <label for="average">Average:</label>
+        <input type="checkbox" id="average" value="average" name="average" required>
+        
+        <label for="poor">Poor:</label>
+        <input type="checkbox" id="poor" value="poor" name="poor" required>
+
+        <label for="file">Upload a file:</label>
+        <input type="file" id="file" value="file" name="file" required>
+        
+        <input type="submit">
+    </form>
+</body>
+</html>
